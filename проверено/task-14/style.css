@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.list-post {
+  background-color: #ccecd1;
+
+  padding: 20px 0 20px 0;
+
+  width: 320px;
+
+  border-radius: 4px;
+
+  box-shadow: 0 5px 5px black;
+}
+
+.tab {
+  background-color: #ffffff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 3px black;
+}
+
+.tab p{
+  padding-left: 15px;
+}
+
+.tab-text {
+  color: #909090; 
+}
+
+.tab-text:hover {
+  color: black;
+  text-decoration-line: underline;
+
+}
+
+.no-img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.text-post {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px black;
+}
+
+.text-post p {
+  margin: 0;
+  font-size: 10px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+}

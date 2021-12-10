@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-panel {
+  display: flex;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 2.5px;
+  width: 12px;
+  height: 12px;
+  background-color: #3a3a3a;
+
+}
+
+.block.back {
+  width: 50px;
+}
+
+.block.next {
+  width: 32px;
+}
+
+.block:hover {
+  background-color: #ee752b;
+}
+
+.block p {
+  margin: 0;
+  color: white;
+  font-size: 12px;
+}

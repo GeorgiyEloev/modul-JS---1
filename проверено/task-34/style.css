@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.pay-main {
+  background-color: #ece2d4;
+  width: 840px;
+  height: 400px;
+}
+
+.name-pay{
+  width: 97.619047619047%;
+  height: 10%;
+  display: flex;
+  padding: 0 10px 0 10px;
+  align-items: center;
+}
+
+.name-pay p {
+  color: #63564a;
+  margin: 0;
+  font-size: 25px;
+  font-family:Arial;
+}
+
+.card {
+  display: flex;
+  width: 100%;
+  height: 90%;
+}
+
+.coloum-card {
+  width: 50%;
+  height: 100%;
+}
+
+.block-card {
+  display: flex;
+  align-items: center;
+  width: 95.238095238095%;
+  height: 27.77777777777%;
+  padding: 10px;
+}
+
+.block-card p {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 75%;
+}
+
+.block-card img {
+  height: 80%;
+}
+
+.block-card:hover {
+  background-color: #f9f4e7;
+  font-size: 1.2em;
+}
+
+.block-card:hover img {
+  height: 100%;
+}
+
+.color {
+  color: #bb7b6c;
+}
